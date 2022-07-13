@@ -46,6 +46,10 @@ body{
     text-align: justify;
 }
 
+.qs_barra{
+    width: 70rem;
+}
+
 #parrafos p{
     color: white;
     font-size: 0.8rem;
@@ -59,4 +63,12 @@ body{
     height: 2rem;
     text-align: center;
     padding-top: 0.4rem;
+}
+
+#barraquienessomossup{
+    margin-bottom: 0.5rem;
+}
+
+#barraquienessomosinf{
+    margin-top: 0.5rem;
 }

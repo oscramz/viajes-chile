@@ -5,3 +5,19 @@ html *{
     font-family: Quicksand;
 }
 
+/* header */
+    /* navbar */
+
+.navbar img{
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar a{
+    color: orange;
+}

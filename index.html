@@ -26,7 +26,7 @@
 <header>
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <img src="./assets/img/viajes.svg" alt="Logo Viajes Chile">
             <a class="navbar-brand" href="#">Viajes Chile</a>
@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
@@ -46,7 +46,7 @@
                         <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacto" >Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -56,6 +56,97 @@
 </header>
 
 <body>
+
+    <!-- carrusel -->
+    <div id="carouselIndicators inicio" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Cordillera de Los Andes">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Atardecer con los Moais">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Vida de Pingüino">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- quienes somos -->
+    <section>
+        <div id="quienes_somos">
+            <h1 class="titulo">Quienes Somos</h1>
+        </div>
+        <hr class="qs_barra mx-auto opacity-100 text-white">
+        <div id="parrafos" class="container">
+            <div class="row py-5">
+                <div class="col-12 col-md-4" id="textos_parrafos">
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <p class="parrafo1">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum sit, amet debitis qui accusantium
+                        exercitationem odio dolore expedita ratione! Omnis eveniet sit ab rem dolore distinctio
+                        repellendus
+                        soluta, quae itaque molestias facere quasi consectetur, saepe, accusantium et perferendis? Quae
+                        recusandae accusantium praesentium nam minus fugiat impedit perspiciatis adipisci enim harum
+                        vero
+                        modi accusamus consequuntur aperiam laborum dicta, deserunt repellat, ipsa mollitia eaque iure
+                        at
+                        fugit nobis commodi. Molestiae, odit, adipisci tenetur mollitia expedita, animi exercitationem
+                        totam
+                        minus deserunt cupiditate libero. Dolorum hic tempora beatae modi perspiciatis ea debitis illum
+                        voluptatum harum voluptates tempore sunt, dignissimos dolorem aliquam officiis, temporibus
+                        delectus.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4" id="textos_parrafos">
+                    <p class="parrafo1">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum sit, amet debitis qui accusantium
+                        exercitationem odio dolore expedita ratione! Omnis eveniet sit ab rem dolore distinctio
+                        repellendus soluta, quae itaque molestias facere quasi consectetur, saepe, accusantium et
+                        perferendis? Quae recusandae accusantium praesentium nam minus fugiat impedit perspiciatis
+                        adipisci enim harum vero modi accusamus consequuntur aperiam laborum dicta, deserunt repellat,
+                        ipsa mollitia eaque iure at fugit nobis commodi. Molestiae, odit, adipisci tenetur mollitia
+                        expedita, animi exercitationem totam minus deserunt cupiditate libero. Dolorum hic tempora
+                        beatae modi perspiciatis ea debitis illum voluptatum harum voluptates tempore sunt, dignissimos
+                        dolorem aliquam officiis, temporibus delectus.
+                    </p>
+                    <i class="fa-solid fa-mountain-sun"></i>
+                </div>
+                <div class="col-12 col-md-4" id="textos_parrafos">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p class="parrafo1">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum sit, amet debitis qui
+                        accusantium exercitationem odio dolore expedita ratione! Omnis eveniet sit ab rem dolore
+                        distinctio repellendus soluta, quae itaque molestias facere quasi consectetur, saepe,
+                        accusantium et perferendis? Quae recusandae accusantium praesentium nam minus fugiat impedit
+                        perspiciatis adipisci enim harum vero modi accusamus consequuntur aperiam laborum dicta,
+                        deserunt repellat, ipsa mollitia eaque iure at fugit nobis commodi. Molestiae, odit,
+                        adipisci tenetur mollitia expedita, animi exercitationem totam minus deserunt cupiditate
+                        libero. Dolorum hic tempora beatae modi perspiciatis ea debitis illum voluptatum harum
+                        voluptates tempore sunt, dignissimos dolorem aliquam officiis, temporibus delectus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
